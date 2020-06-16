@@ -1,0 +1,5 @@
+## La Línea de Comandos
+
+Existen muchas formas de usar Git. Por un lado tenemos las herramientas originales de línea de comandos, y por otro lado tenemos una gran variedad de interfaces de usuario con distintas capacidades. En este Libro vamos a usar Git desde la línea de comandos. La línea de comandos es el único lugar en donde puedes ejecutar __todos__ los comandos de Git - la maryoría de interfaces gráficas de usuario solo implementan una parte de las caracteristicas de Git por motivos de simplicidad. Si tú sabes cómo realizar algo desde la línea de comandos, seguramente serás capaz de averiguar cómo hacer lo mismo desde una interfaz gráfica. Sin embargo, la relación opuesta no es necesariamente cierta.  Así mismo, la desición de qué cliente gráfico utilizar depende totalmente de tu gusto, pero _todos_ los usuarios tendrán las herramientas de línea de comandos instaladas y disponibles.
+
+Nosotros espermos que sepas cómo abrir el Terminal en Mac, o el "Command Prompt" o "Powershell" en Windows. 
