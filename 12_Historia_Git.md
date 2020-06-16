@@ -10,4 +10,4 @@ En el 2005 , la relación entre la comunidad que desarrollaba el kernel de Linux
 - Completamente Distribuido.
 - Capaz de manejar grandes proyectos (como el Kernel de Linux) eficientemente (velocidad y tamaño de datos).
 
-Desde su nacimiento en el 2005, Git ha evolucionado y madurado para ser fácil de usar y conservar sus características iniciales. Es tremendamente rápido, muy eficiente con grandes proyectos y tiene un increible sistemas de ramificación (branching) para el desarrollo no lineal.
+Desde su nacimiento en el 2005, Git ha evolucionado y madurado para ser fácil de usar y conservar sus características iniciales. Es tremendamente rápido, muy eficiente con grandes proyectos y tiene un increible sistemas de ramificación (branching) para el desarrollo no lineal. (véase [Ramificaciones en Git](https://git-scm.com/book/es/v2/Ramificaciones-en-Git-%C2%BFQu%C3%A9-es-una-rama%3F#ch03-git-branching))
