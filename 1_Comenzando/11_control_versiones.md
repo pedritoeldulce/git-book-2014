@@ -9,7 +9,7 @@
 
 Para afrontar el problema del control de versiones a nivel local, los programadores desarrollaron VCS locales que contenían una simple base de datos, en la que se llevaban el registro de todos los cambios realzados a los registros.
 
-![Computadora Local](/img/local_computer.png)  
+![Computadora Local](./img/local_computer.png)  
 
 ### Sistema de Control de Sistema Centralizados
 
@@ -21,7 +21,7 @@ Tiene un problema, necesita colaborar con desarrolladores de otros sistemas.
 Cuando se tiene toda el historial del proyecto en un mismo lugar te arriesgas a perderlo todo.
 
 
-![Control Centralizado](/img/control_centralizado.png)
+![Control Centralizado](./img/control_centralizado.png)
 
 ### Sistemas de Control de Sistemas Distribuidos
 

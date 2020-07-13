@@ -6,13 +6,13 @@ Es muy importante entender bien esta sección, porque si entiendes lo que es Git
 ### Copias instantáneas, no diferencias
 La principal diferencia entre Git y otros VCS (incluyendo Subversión y sus amigos) es la forma en la que manejan sus datos. Conceptualmente, la mayoría de los otros sistemas almacena la información como una lista de cambios en los archivos. Estos sistemas (CVS, Subversión, Perforce, Bazaar, etc) manejan la información que almacenan como un conjunto de archivos y las modificaciones hechas a cada uno de ellos a través del tiempo. 
 
-![Checkins Over Time](/img/figure_4.png)
+![Checkins Over Time](./img/figure_4.png)
 
 _Almacenamiento de datos como cambios en una versión de la base de cada archivo_
 
 Git no maneja ni almacena sus datos de esta forma. Git maneja sus datos como un conjunto de copias instantáneas de un sistema de archivos miniatura. Cada vez que confirmas un cambio, o guardas el estado de tu proyecto en Git, él básicamente toma una foto del aspecto de todos tus archivos en ese momento y guarda una referencia a esa copia instantánea. Para ser eficiente, si los archivos no se han modificado Git no almacena el archivo de nuevo, sino un enlace al archivo anterior idéntico que ya tiene almacenado. Git maneja sus datos como una secuencia de copias instantáneas.
 
-![Figure 5](/img/figure_5.png)
+![Figure 5](./img/figure_5.png)
 
 _Almacenamiento de datos como instantáneas del proyecto a través del tiempo_
 
