@@ -1,1 +1,4 @@
-.idea/
+# Listado de archivos que se van a ignorar
+
+
+*.idea
