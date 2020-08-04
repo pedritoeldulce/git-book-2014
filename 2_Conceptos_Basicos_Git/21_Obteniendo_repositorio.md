@@ -1,4 +1,4 @@
-## __Conceptos básicos de Git: Cómo obtener un reposotorio de Git__
+## __Conceptos básicos de Git: Cómo obtener un repositorio de Git__
 
 Si solo puede leer un capítulo para comenzar en Git, este es el momento. En este capítulo cubre todos los comandos básicos que necesita hacer la gran mayoría de las cosas que eventualmente pasará su tiempo haciendo con Git. Al final del capítulo, debería poder configurar e inicializar un repositorio, comenzar y detener los archivos de seguimiento, y organizarlos y confirmar los cambios. También le mostraremos cómo configurar Git para ignorar ciertos archivos y patrones de archivos, cómo deshacer errores rápida y fácilmente, cómo explorar el historial de su proyecto y ver los cambios entre confirmaciones, y cómo empujar y extraer desde repositorios remotos.
 
@@ -43,7 +43,7 @@ Repasaremos lo que hacen estos comandos en un solo minuto, En este capítulo, ti
 
 ### Clonando un repositorio existente
 
-Si desea obtener una copia de un repositorio Git existente, por ejemplo, un proyecto al que le gustaría contribuir, el comando que necesita es  `git clone`. Si está familizarizado con otros sistemas VCS como Subversión, notará que el comando es __"clone"__ y no __"checkout"__. Esta es una distinción importarte: en lugar de obtener solo una copia de trabajo, Git recibe una copia completa de casi todos los datos que tiene el servidor. Cada versión de cada archivo para el historial del proyecto se despliega de forma predeterminada cuando se ejecuta `git clone`. De hecho, si el disco de su servidor se corrompe, a menudo puede usar casi cualquier de los clones en cualquier cliente para configurar el servidor al estado en que estaba cuando se clonó (puede perder algunos ganchos del lado del servidor y demás, pero todos los daos versionados estarían allí; [Cómo obtener Git en un servidor](https://git-scm.com/book/en/v2/ch00/_getting_git_on_a_server) para más detalles).
+Si desea obtener una copia de un repositorio Git existente, por ejemplo, un proyecto al que le gustaría contribuir, el comando que necesita es  `git clone`. Si está familizarizado con otros sistemas VCS como Subversión, notará que el comando es __"clone"__ y no __"checkout"__. Esta es una distinción importarte: en lugar de obtener solo una copia de trabajo, Git recibe una copia completa de casi todos los datos que tiene el servidor. Cada versión de cada archivo para el historial del proyecto se despliega de forma predeterminada cuando se ejecuta `git clone`. De hecho, si el disco de su servidor se corrompe, a menudo puede usar casi cualquier de los clones en cualquier cliente para configurar el servidor al estado en que estaba cuando se clonó (puede perder algunos ganchos del lado del servidor y demás, pero todos los datos versionados estarían allí; [Cómo obtener Git en un servidor](https://git-scm.com/book/en/v2/ch00/_getting_git_on_a_server) para más detalles).
 
 Clonas un reporitorio con `git clone <url>`. Por ejemplo, si desea clonar la bilbioteca enlazable Git llamada `libgit2`, puede hacerlo así:
 
@@ -59,4 +59,4 @@ Este comando hace lo mismo que el anterior, pero se llama al directorio de desti
 
 Git tiene varios protocolos de transferencia diferentes que puede usar. En el ejemplo anterior usa el protocolo `http://`, pero también puede ver `git://` o `user:@server:path/to/repo.git`, que usa el protocolo de tranasferencia SSH. Obtener Git en un servidor presentará todas las opciones disponibles que el servidor puede configurar para acceder a su repositorio Git y los pros y contras de cada uno.
 
-[anterior](https://git-scm.com/book/en/v2/Getting-Started-Summary) | [siguiente](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+[anterior](../1_Comenzando/18_Resumen.md) | [siguiente](./22_Registro_cambios.md)
